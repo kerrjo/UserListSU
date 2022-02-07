@@ -14,6 +14,7 @@
 		5524804627B1600800B2C047 /* UserListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524804527B1600800B2C047 /* UserListTests.swift */; };
 		5524805027B1600800B2C047 /* UserListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524804F27B1600800B2C047 /* UserListUITests.swift */; };
 		5524805227B1600800B2C047 /* UserListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524805127B1600800B2C047 /* UserListUITestsLaunchTests.swift */; };
+		5524805F27B1603400B2C047 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524805E27B1603400B2C047 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5524804B27B1600800B2C047 /* UserListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5524804F27B1600800B2C047 /* UserListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITests.swift; sourceTree = "<group>"; };
 		5524805127B1600800B2C047 /* UserListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5524805E27B1603400B2C047 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5524803627B1600400B2C047 /* ContentView.swift */,
 				5524803827B1600800B2C047 /* Assets.xcassets */,
 				5524803A27B1600800B2C047 /* Preview Content */,
+				5524805E27B1603400B2C047 /* Users.swift */,
 			);
 			path = UserList;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5524803727B1600400B2C047 /* ContentView.swift in Sources */,
+				5524805F27B1603400B2C047 /* Users.swift in Sources */,
 				5524803527B1600400B2C047 /* UserListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
